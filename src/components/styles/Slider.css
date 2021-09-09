@@ -1,0 +1,47 @@
+.slider-container {
+  --progress-bar-height: 4px;
+}
+
+.slider-container {
+  position: relative;
+  width: 221px;
+  float: right;
+}
+
+/* Background */
+.slider-container::before {
+  content: "";
+  background-color: #b721ff;
+  width: 99%;
+  height: 0.1px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* Custom Progress Bar */
+.progress-bar-cover {
+  background-color: #b721ff;
+  width: 0%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/*  Hide Original */
+.range {
+  background-color: rgba(240, 9, 9, 0.397);
+  height: 10px;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0 auto;
+}

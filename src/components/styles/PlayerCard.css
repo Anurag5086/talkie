@@ -1,0 +1,107 @@
+.container {
+  width: 296px;
+  height: 162px;
+  background: #061732;
+  border: 0.5px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 50px rgba(6, 23, 50, 0.2);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.record_icon_container {
+  position: absolute;
+  left: 35%;
+  border: 1px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.play_time {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.start_text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  opacity: 0.6;
+  margin-bottom: 0px;
+}
+
+.timer_section {
+  margin-top: 5px;
+}
+
+.fixed_time {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.send_btn_play {
+  width: 60px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send_btn_paused {
+  width: 60px;
+  height: 26px;
+  background: #6f4ad2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.top_section_player {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_section {
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.left_section {
+  margin-left: 20px;
+}
+
+.wave {
+  width: 280px;
+  margin-left: 10px;
+}
+
+.pause_button {
+  margin-right: 10px;
+  cursor: pointer;
+}
